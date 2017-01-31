@@ -2,18 +2,21 @@ require 'verify/version'
 require 'net/http'
 require 'uri'
 
-module Verify
-
+class Verify
+  def self.process str
+    puts str
+  end
   def initialize
-    print "Verify Initialized"
+    @demo = "i am demo"
+    @candidate_id = nil
   end
 
-  mattr_accessor :base_url
-  @@base_url = nil
+  def demo
+    puts "demo"
+  end
 
-  mattr_accessor :client_id
-  @@client_id = nil
+  def cid
+    puts @candidate_id
+  end
 
-  mattr_accessor :client_secret
-  @@client_secret = nil
 end
