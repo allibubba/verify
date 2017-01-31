@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'verify/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Verify"
+  spec.name          = "verify"
   spec.version       = Verify::VERSION
   spec.authors       = ["Jackson Oates"]
   spec.email         = ["jackson.oates@gmail.com"]
