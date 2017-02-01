@@ -13,3 +13,5 @@ $ rails generate verify:install
 ````
 
 this adds a new `verify.rb` file to your initializers. This file should be edited and values set.
+
+

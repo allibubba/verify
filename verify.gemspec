@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jackson.oates@gmail.com"]
   spec.description   = %q{Provide a clean interface for working with background service}
   spec.summary       = %q{interface with background service}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/allibubba/verify"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'engtagger'
+  spec.add_dependency 'activerecord', '>= 4.0', '< 5.1'
 
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'rake'
